@@ -1,6 +1,24 @@
 .rodape{
     display: flex;
     background-color: #6278F7;
-    background-image: url('../../../imagens/fundo.png');
+    color: #fff;
+    background-image: url('../../../public/imagens/fundo.png');
     height: 233px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.rodape ul{
+    list-style: none;
+    display: flex;
+}
+
+.rodape ul li{
+    margin-right: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
 }

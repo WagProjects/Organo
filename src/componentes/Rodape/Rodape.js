@@ -1,14 +1,20 @@
-import './Rodape.css'
+import "./Rodape.css"
 
 function Rodape() {
     return(
-        <footer className='rodape'>
+        <footer className="rodape">
             <section>
                 <ul>
-                    <li>
-                        <img src='../../../imagens/fb.png' alt='facebook'/>
-                    </li>
+                    <li><a href="facebook.com" target="_blank"><img src="./imagens/fb.png" alt="facebook" /></a></li>
+                    <li><a href="twitter.com" target="_blank"><img src="./imagens/tw.png" alt="twitter" /></a></li>
+                    <li><a href="instagram.com" target="_blank"><img src="./imagens/ig.png" alt="instagram" /></a></li>
                 </ul>
+            </section>
+            <section>
+                <img src="./imagens/logo.png" alt="logo"/>
+            </section>
+            <section>
+                <p>Desenvolvido por Alura.</p>
             </section>
         </footer>
     )
