@@ -1,0 +1,6 @@
+.rodape{
+    display: flex;
+    background-color: #6278F7;
+    background-image: url('../../../imagens/fundo.png');
+    height: 233px;
+}
